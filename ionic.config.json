@@ -1,0 +1,7 @@
+{
+  "name": "Proyecto Aplicaciones Moviles",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
