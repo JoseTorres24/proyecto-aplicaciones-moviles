@@ -1,0 +1,33 @@
+body {
+    height: 100vh; /* Asegura que ocupe el 100% de la pantalla */
+    overflow-y: scroll; /* Habilita el desplazamiento vertical */
+    
+  }
+  
+  .custom-grid {
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+  }
+  
+  ion-row {
+    display: flex; /* Usa flexbox para mantener las columnas en una fila */
+    margin-bottom: 120px; /* Espacio entre filas */
+    margin-right:5px; 
+    margin-left: 5px;
+    
+  }
+  
+  ion-col {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    padding: 10px; /* Ajusta el padding si es necesario */
+    text-align: center;
+    border-radius: 5px;
+    height: 100px; /* Altura fija */
+    width: 80px; /* Establece un ancho fijo */
+    max-width: 80px; /* Asegúrate de que no se expanda más allá de este ancho */
+    box-sizing: border-box;
+  }
+  
+  
+  
